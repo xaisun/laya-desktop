@@ -1,0 +1,6 @@
+﻿;!@Install@!UTF-8!
+Title="laya 决策引擎 安装程序"
+BeginPrompt="即将安装 laya 决策引擎（约 2GB），解压到安装包同级的 laya 文件夹。继续？"
+InstallPath="laya"
+RunProgram="install_helper.bat"
+;!@InstallEnd@!

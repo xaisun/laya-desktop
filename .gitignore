@@ -1,0 +1,24 @@
+# 模型权重（约 1.5GB，不入库；从 HuggingFace convaiinnovations/laya 获取后放 models/）
+models/
+
+# PyInstaller 构建产物
+build_onefile/
+build_out/
+dist/
+build/
+installer/*.7z
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+
+# 日志 / 临时 / 诊断
+*.log
+_diag.txt
+_probe/
+server.log
+nul
+
+# 截图（验证用，体积大）
+shots/
