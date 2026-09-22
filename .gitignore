@@ -20,5 +20,6 @@ _probe/
 server.log
 nul
 
-# 截图（验证用，体积大）
-shots/
+# 截图（验证杂项体积大，仅保留操作台预览图入库）
+shots/*
+!shots/*.png

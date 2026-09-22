@@ -1,0 +1,14 @@
+laya-desktop
+Copyright 2026 sunxi (XAI SUN)
+
+This product includes software developed by convaiinnovations:
+
+  laya - https://github.com/NandhaKishorM/laya
+  Licensed under the Apache License, Version 2.0
+
+  laya is a non-autoregressive System-1 decision engine
+  (ModernBERT-large / mmBERT-base), Apache-2.0.
+
+This packaging (PyInstaller build scripts, pywebview native window
+entry, 7z self-extracting installer) is provided under the Apache
+License, Version 2.0.

@@ -31,6 +31,16 @@ models/
   multilingual/  # mmBERT-base 322M
 ```
 
+## 操作台预览
+
+两张截图来自无头渲染的操作台界面（与 pywebview 原生窗口内的 UI 一致，真机双击 `laya-desktop.exe` 即可见原生边框窗口）：
+
+![操作台首页](shots/01-home.png)
+
+![预测结果](shots/02-result.png)
+
+内置五个场景：客户支持四问 / 工单分诊 / Prompt 护栏 / 内容安全 / 模型路由；结果区展示 `choice` / `score` / `noul` 三类决策与概率条、路由语言与时延。
+
 ## 已知短板
 
 `noul`（是/否判断）对**中文不可靠**，跨语言请用 `choice` / `score` 型。详见说明文档。
